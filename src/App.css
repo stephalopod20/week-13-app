@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+.navBarn {
+  background-color: brown;
+  color:antiquewhite;
+  font-size: medium;
+  padding: 5px;
+  border-style: dotted;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul li {        
+  list-style-type: none;
+  margin-right: 2em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+h4 {
+  display: flex;
+  color: antiquewhite;
+  margin: 5px;
+
+}
+
+body {
+  background-color: khaki;
+}
+
+button {
+  background-color: lightcoral;
+  border-radius: 5px;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 5px;
+  width: fit-content;
+}
+
+.loginForm {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: fit-content;
+  border: 5px dotted black;
+  background-color: rgba(255, 255, 255, 0.581);
+  margin: auto;
+  padding: 15px;
+    position: absolute;  /*grabbed from internet to center the form nicely */
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;     /* Half of height */
+    margin-left: -150px; 
 }
 
-.App-link {
-  color: #61dafb;
+h3 {
+  width: fit-content;
+  border: 2px solid brown;
+  padding: 3px;
+  border-radius: 5px;
+  margin: 5px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  margin: 5px;
+  width: fit-content;
 }
