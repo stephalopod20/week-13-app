@@ -13,7 +13,7 @@ function LoginForm () {
             <i>Username</i>
             <input placeholder="Moosername"></input>
             <i>Password</i>
-            <input placeholder="Grassword"></input>
+            <input type="password" placeholder="Grassword"></input>
             <button>Log In</button>
         </form>
     )
